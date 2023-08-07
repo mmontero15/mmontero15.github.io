@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilosportafolio.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img id="logo" src="portafolio_files/Logo.jpg" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="#sobre_mi">Sobre mí</a></li>
+                    <li><a href="#educacion">Educacion</a></li>
+                    <li><a href="#experiencia">Experiencia laboral</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <div>
+        <div id="sobre_mi">
+            <h2 class="titulo">Sobre mí</h2>
+            <br>
+            <p>Hola soy Marcos Montero, tengo 24 años y soy estudiante de desarrollo web Front-End dentro del programa
+                de ceibal
+                "Jóvenes a Programar".</p>
+            <br>
+        </div>
+        <hr>
+        <br>
+        <div id="educacion">
+            <h2 class="titulo">Educacion</h2>
+            <br>
+            <table>
+                <tr>
+                    <th>Estudios</th>
+                    <th>Título</th>
+                    <th>Institucion / Entidad</th>
+                    <th>Duración</th>
+                </tr>
+                <tr>
+                    <td>Ciclo básico (Secundaria).</td>
+                    <td>Egresado.</td>
+                    <td>Liceo N°57.</td>
+                    <td>3 años.</td>
+                </tr>
+                <tr>
+                    <td>Bachillerato tecnológico.</td>
+                    <td>Egresado.</td>
+                    <td>Instituto Tecnológico de informática.</td>
+                    <td>3 años.</td>
+                </tr>
+                <tr>
+                    <td>Desarrollo web</td>
+                    <td>En curso</td>
+                    <td>Plan Ceibal (Jóvenes a programar)</td>
+                    <td>2 años.</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <br>
+        <div id="experiencia">
+            <h2 class="titulo">Experiencia laboral</h2>
+            <br>
+            <table>
+                <tr>
+                    <th>Empresa o Organización</th>
+                    <th>Cargo</th>
+                    <th>Localización</th>
+                    <th>Desde-Hasta</th>
+                </tr>
+                <tr>
+                    <td>Banco Republica Oriental Del Uruguay.</td>
+                    <td>Pasantía del programa “yo estudio y trabajo”.</td>
+                    <td>Montevideo (Uruguay).</td>
+                    <td>Marzo 2019 - Marzo de 2020.</td>
+                </tr>
+                <tr>
+                    <td>Telesur.SA</td>
+                    <td>Empleado (operador telefonico SAC de un Banco reconocido).</td>
+                    <td>Montevideo (Uruguay).</td>
+                    <td>Octubre de 2021 - Actualidad.</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <br>
+        <div id="contacto">
+            <h2 class="titulo">Contacto</h2>
+            <p>Puedes Encontrarme en:</p>
+            <li><a href="https://uy.linkedin.com/">Linkedin</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://github.com/">Github</a></li>
+            <br>
+            <h2 class="titulo">Enviar Mensaje</h2>
+            <!-- Formulario -->
+            <br>
+            <form class="formulario">
+                <label for="para">Para: </label><input type="text" name="para"><br>
+                <label for="tematica">Temática: </label>
+                <select name="tematica">
+                    <option>-- Elige un tema --</option>
+                    <option>Consulta</option>
+                    <option>Propuesta</option>
+                    <option>Reporte</option>
+                    <option>Otro</option>
+                </select><br>
+                <label for="asunto">Asunto: </label><input type="text" name="asunto"><br>
+                <label for="cuerpo">Cuerpo: </label><textarea></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+</body>
+
+</html>
